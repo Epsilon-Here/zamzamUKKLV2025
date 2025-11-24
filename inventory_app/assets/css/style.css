@@ -1,0 +1,5 @@
+/* Simple styles and animations */
+body { background: #f8f9fa; }
+.card.animate-card { transition: transform .25s ease, box-shadow .25s ease; }
+.card.animate-card:hover { transform: translateY(-6px); box-shadow: 0 10px 30px rgba(0,0,0,.08); }
+table tr:hover { background: rgba(0,0,0,0.02); }
